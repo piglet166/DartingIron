@@ -25,11 +25,6 @@ if(mouse_check_button_pressed(mb_left)){
 		var victim = instance_place(mx, my, obj_enemy);
 		pulling = true;
 		
-		/*with(victim){
-			gravity = 0.1;
-			xpos += (mx - xpos) * 0.1;
-			ypos += (my - ypos) * 0.1;
-		}*/
 	}
 }
 
@@ -39,15 +34,6 @@ if(pulled){
 	x += (mx - x) * 0.1;
 	y += (my - y) * 0.1;
 }
-
-/*if(pulling){
-	with(victim){
-		gravity = 0.1;
-		victim.x += (mx - victim.x) * 0.1;
-		victim.y += (my - victim.y) * 0.1;
-	}
-
-}*/
 
 if (mouse_check_button_released(mb_left)){
 	pulled = false;
