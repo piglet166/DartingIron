@@ -17,4 +17,3 @@ if (place_meeting(x, y+vspeed, obj_tile)){
 	vspeed = 0;
 	move_contact_solid(270, 12);
 }
-
