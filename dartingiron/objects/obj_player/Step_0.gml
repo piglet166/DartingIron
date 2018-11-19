@@ -22,8 +22,14 @@ if(mouse_check_button_pressed(mb_left)){
 	}
 	
 	if(place_meeting(mx, my, obj_enemy)){
-		var victim = other.id;
+		var victim = instance_place(mx, my, obj_enemy);
 		pulling = true;
+		
+		/*with(victim){
+			gravity = 0.1;
+			xpos += (mx - xpos) * 0.1;
+			ypos += (my - ypos) * 0.1;
+		}*/
 	}
 }
 
@@ -35,11 +41,11 @@ if(pulled){
 }
 
 /*if(pulling){
-	//with(victim){
+	with(victim){
 		gravity = 0.1;
-		victim.x += (mx - x) * 0.1;
-		victim.y += (my - y) * 0.1;
-	//}
+		victim.x += (mx - victim.x) * 0.1;
+		victim.y += (my - victim.y) * 0.1;
+	}
 
 }*/
 
