@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0ac35b84-6063-4f71-a3b1-ca5eaef84565",
+            "Value": {
+                "id": "badad20a-d174-451e-91f5-6015fdda714a",
+                "resourcePath": "objects\\obj_attack\\obj_attack.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0dd7f858-26fc-473f-b7b1-eb2ca96fb3d5",
             "Value": {
                 "id": "ae0eff2b-5c87-4eeb-9908-4cd856460831",
@@ -103,6 +111,14 @@
             }
         },
         {
+            "Key": "44a5894d-76c3-4058-a5cd-26961dddd5c6",
+            "Value": {
+                "id": "86912710-5259-4f59-805b-0a09b75792a3",
+                "resourcePath": "sprites\\slash\\slash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4a0bc8b4-6c3a-458c-b27b-477dcc29296c",
             "Value": {
                 "id": "206c959b-cac9-4414-bd9d-232c8d57501e",
@@ -124,6 +140,14 @@
                 "id": "d93680fe-c917-4bf2-a54a-7f16bcbcac27",
                 "resourcePath": "sprites\\pro_spr_player\\pro_spr_player.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5dd229a1-dbec-40e9-9e4d-e9c125982f69",
+            "Value": {
+                "id": "58fb0408-dee8-413a-be4b-3ca60e7d0bd4",
+                "resourcePath": "objects\\Game_Controller\\Game_Controller.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -212,6 +236,14 @@
                 "id": "58d99548-411d-4bc8-9303-e0e574b843a6",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "da8470eb-4d7b-4f1a-aae9-acf8ab6ac77b",
+            "Value": {
+                "id": "13cac9dc-76d1-48a4-aa7d-77ed25c9093f",
+                "resourcePath": "objects\\State_Machine\\State_Machine.yy",
+                "resourceType": "GMObject"
             }
         },
         {
