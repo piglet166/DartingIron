@@ -73,6 +73,6 @@ if (mouse_check_button_released(mb_left)){
 		break;
 }*/
 
-//if (health <= 0) death = true;
+if (hp <= 0) death = true;
 
-//if (death) instance_destroy();
+if (death) instance_destroy();

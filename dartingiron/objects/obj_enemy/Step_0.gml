@@ -15,7 +15,7 @@ if(mouse_check_button_pressed(mb_left)){
 
 if(pulling){
 	
-	
+	gravity = .1;
 	x += (obj_player.x - x) * 0.1;
 	y += (obj_player.y - y) * 0.1;
 	if(obj_player.x < x){
@@ -31,3 +31,6 @@ if (mouse_check_button_released(mb_left)){
 	pulling = false;
 	speed = norm_speed;
 }
+
+if (hp <= 0) death = true;
+if (death) instance_destroy();
