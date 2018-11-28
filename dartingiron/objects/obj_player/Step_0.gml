@@ -3,6 +3,7 @@
 if(place_free(x, y+1)) gravity = 1;
 else gravity = 0;
 
+//movement
 if(keyboard_check(ord("D"))) hspeed = 5; 
 if(keyboard_check(ord("A"))) hspeed = -5; 
 
