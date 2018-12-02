@@ -191,11 +191,27 @@
             }
         },
         {
+            "Key": "a4021328-4d76-4379-8e4a-3e8373fe7331",
+            "Value": {
+                "id": "38789625-6dfc-41a5-b04b-e091bccb6eac",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a7cccb69-5ad0-4e9f-a642-e70db2f4cb2a",
             "Value": {
                 "id": "f1708ced-3a1f-4d6d-bfb1-be53a06198c6",
                 "resourcePath": "views\\a7cccb69-5ad0-4e9f-a642-e70db2f4cb2a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "9756ac0a-23ab-42e2-8ff8-f4794af0923b",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
             }
         },
         {
@@ -239,6 +255,14 @@
             }
         },
         {
+            "Key": "d9c41247-21ac-42b7-a085-c8e46a3d32c4",
+            "Value": {
+                "id": "35e0ccb7-5328-4b33-a3d4-ca2b1fe24bd6",
+                "resourcePath": "rooms\\room2\\room2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "da8470eb-4d7b-4f1a-aae9-acf8ab6ac77b",
             "Value": {
                 "id": "13cac9dc-76d1-48a4-aa7d-77ed25c9093f",
@@ -260,6 +284,14 @@
                 "id": "8e41f4c2-1d2d-4dfd-956a-ae72fe8eae6f",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "c6fcfe03-5205-44b3-abca-3674c84e12fd",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {
