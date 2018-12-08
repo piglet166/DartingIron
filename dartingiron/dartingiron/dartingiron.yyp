@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "05d06794-ca2f-428c-b6d9-dc97775331a6",
+            "Value": {
+                "id": "a7fdcf18-635c-4322-9bc2-da4398142314",
+                "resourcePath": "sprites\\spr_ply_right_walk\\spr_ply_right_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0ac35b84-6063-4f71-a3b1-ca5eaef84565",
             "Value": {
                 "id": "badad20a-d174-451e-91f5-6015fdda714a",
