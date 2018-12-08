@@ -4,13 +4,27 @@ if(place_free(x, y+1)) gravity = 1;
 else gravity = 0;
 
 //movement
-if(keyboard_check(ord("D"))) hspeed = 5; 
-if(keyboard_check(ord("A"))) hspeed = -5; 
+if(keyboard_check(ord("D"))){
+	hspeed = 5;
+	facing = PositionRelative.right;
+	anim = Movement.right;
+}
+if(keyboard_check(ord("A"))) {
+	hspeed = -5;
+	facing = PositionRelative.left;
+	anim = Movement.left;
+}
 
-if(keyboard_check(vk_nokey)) hspeed = 0; 
+if(keyboard_check(vk_nokey)){
+	hspeed = 0;
+	if(facing == PositionRelative.left) anim = Movement.idleLeft;
+	else anim = Movement.idleRight;
+}
 
 if(keyboard_check_pressed(ord("W")) && !place_free(x, y+1)){
 	vspeed = -20;
+	if(facing == PositionRelative.left){ anim = Movement.jumpLeft;}
+	else{ anim = Movement.jumpRight;}
 }
 
 //checking mouse pointer
@@ -43,6 +57,35 @@ if (mouse_check_button_released(mb_left)){
 
 if (hp <= 0) death = true;
 
-
-
 if (death) instance_destroy();
+
+switch (anim){
+	case Movement.left:
+		sprite_index = spr_ply_left_walk;
+		image_index = 0;
+
+		image_speed = 1;
+		break;
+	case Movement.right:
+		sprite_index = spr_ply_right_walk;
+		image_index = 0;
+
+		image_speed = 1;
+		break;
+	case Movement.jumpLeft:
+		break;
+	case Movement.jumpRight:
+		break;
+	case Movement.idleLeft:
+		//sprite_index = spr_ply_left_walk;
+		image_index = 0;
+
+		image_speed = 0;
+		break;
+	case Movement.idleRight:
+		sprite_index = spr_ply_right_walk;
+		image_index = 0;
+
+		image_speed = 0;
+		break;
+}

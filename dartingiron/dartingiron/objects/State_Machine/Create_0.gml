@@ -3,8 +3,10 @@
 enum Movement{
 	left,
 	right,
-	jump,
-	idle
+	jumpLeft,
+	jumpRight,
+	idleLeft,
+	idleRight
 }
 
 enum Actions{

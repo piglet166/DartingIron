@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "2042e346-0457-43e8-81eb-8b4cdecd7821",
+            "Value": {
+                "id": "035f8da9-f736-4cd6-a7d3-8ca7cda10e05",
+                "resourcePath": "sprites\\spr_ply_left_walk\\spr_ply_left_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "24818173-f3a0-45fd-89e5-a6cf81e064a3",
             "Value": {
                 "id": "b475ba4e-02ee-4fd5-9fd9-3766043b7f52",
