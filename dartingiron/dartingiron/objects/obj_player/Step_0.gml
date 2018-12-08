@@ -58,34 +58,3 @@ if (mouse_check_button_released(mb_left)){
 if (hp <= 0) death = true;
 
 if (death) instance_destroy();
-
-switch (anim){
-	case Movement.left:
-		sprite_index = spr_ply_left_walk;
-		image_index = 0;
-
-		image_speed = 1;
-		break;
-	case Movement.right:
-		sprite_index = spr_ply_right_walk;
-		image_index = 0;
-
-		image_speed = 1;
-		break;
-	case Movement.jumpLeft:
-		break;
-	case Movement.jumpRight:
-		break;
-	case Movement.idleLeft:
-		//sprite_index = spr_ply_left_walk;
-		image_index = 0;
-
-		image_speed = 0;
-		break;
-	case Movement.idleRight:
-		sprite_index = spr_ply_right_walk;
-		image_index = 0;
-
-		image_speed = 0;
-		break;
-}

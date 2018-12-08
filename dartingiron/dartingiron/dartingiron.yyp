@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "07a60b70-911c-4940-8dbe-cab874afa612",
+            "Value": {
+                "id": "4c03fe22-42ed-4e4f-9e42-4b6b685dc4ef",
+                "resourcePath": "sprites\\spr_wheelboi_right\\spr_wheelboi_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0ac35b84-6063-4f71-a3b1-ca5eaef84565",
             "Value": {
                 "id": "badad20a-d174-451e-91f5-6015fdda714a",
@@ -162,7 +170,7 @@
             "Key": "3f73f326-2152-471f-99cb-909134e912a3",
             "Value": {
                 "id": "141ec907-6361-47c4-b5d8-b0a3e0d1fbeb",
-                "resourcePath": "sprites\\sprite6\\sprite6.yy",
+                "resourcePath": "sprites\\spr_wheelboi_left\\spr_wheelboi_left.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -186,7 +194,7 @@
             "Key": "4b463860-ecff-4f0f-9ec0-fe2c9c1ba347",
             "Value": {
                 "id": "0ef76575-e248-40bc-89e5-ef3ac874c534",
-                "resourcePath": "sprites\\sprite4\\sprite4.yy",
+                "resourcePath": "sprites\\spr_fliboi_left\\spr_fliboi_left.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -271,6 +279,22 @@
             }
         },
         {
+            "Key": "8d0b3526-9d75-4092-a724-454d0efe0123",
+            "Value": {
+                "id": "86133365-6c72-4e61-abee-610736126e69",
+                "resourcePath": "sounds\\snd_player_hit\\snd_player_hit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "917f3aa0-4e14-48fa-95cc-8b8908ded464",
+            "Value": {
+                "id": "3d5d7a29-80f4-4c87-81c1-9f8fa4545367",
+                "resourcePath": "sounds\\snd_enemy_hit\\snd_enemy_hit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "953839e3-12cf-4021-b3c7-e866fa446021",
             "Value": {
                 "id": "2ed5baa6-3930-4797-98a7-347eef3fe4df",
@@ -284,6 +308,14 @@
                 "id": "6c394a48-0166-427a-b11a-3ae44910619e",
                 "resourcePath": "views\\99f24a8c-a308-44e4-b890-13aaca2244da.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9ff9f292-06e6-4de7-b0fd-d091f5fc869d",
+            "Value": {
+                "id": "74cedc28-1403-47fb-aca4-60ad45ef4a9d",
+                "resourcePath": "sprites\\spr_fliboi_right\\spr_fliboi_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -386,7 +418,7 @@
             "Key": "e0aa3169-de35-4da7-8b80-ac9083510f24",
             "Value": {
                 "id": "1fed5927-4680-48b0-a610-4fc8644b234f",
-                "resourcePath": "sprites\\sprite5\\sprite5.yy",
+                "resourcePath": "sprites\\spr_tallboi\\spr_tallboi.yy",
                 "resourceType": "GMSprite"
             }
         },
