@@ -6,6 +6,4 @@ death = false;
 pulling = false;
 norm_speed = 1;
 
-facing = PositionRelative.left;
-
 hspeed = -1;
