@@ -4,4 +4,6 @@ hp = 1;
 death = false;
 
 pulling = false;
-norm_speed = 0;
+norm_speed = 1;
+
+hspeed = -1;

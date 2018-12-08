@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "7d38ce85-e876-4133-8ed4-c2198463200a",
+            "Value": {
+                "id": "9e76f213-fc93-4805-b63a-5cbcfd5dc412",
+                "resourcePath": "sprites\\spr_Invisible_Wall\\spr_Invisible_Wall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "87ecd431-24ef-441b-89a0-9e1d18b83b02",
             "Value": {
                 "id": "68908c67-1185-4619-9a23-24f2287df351",
@@ -244,6 +252,14 @@
                 "id": "b25a1eb1-f620-4fc4-b1b2-e22b6c638b7a",
                 "resourcePath": "views\\8ce0cd0e-e729-4ba1-96e5-d9a82db65a98.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "953839e3-12cf-4021-b3c7-e866fa446021",
+            "Value": {
+                "id": "2ed5baa6-3930-4797-98a7-347eef3fe4df",
+                "resourcePath": "objects\\Invisible_Wall\\Invisible_Wall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
