@@ -34,3 +34,12 @@ if (mouse_check_button_released(mb_left)){
 
 if (hp <= 0) death = true;
 if (death) instance_destroy();
+
+//AI
+hspeed = -1;
+if(hspeed < 0){
+	if (!place_meeting(x + hspeed - (sprite_width), y + 1, obj_tile)) hspeed *= -1;
+}
+if(hspeed > 0){
+	if (!place_meeting(x + hspeed + (sprite_width), y + 1, obj_tile)) hspeed *= -1;
+}
