@@ -1,5 +1,5 @@
-/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDAction : YoYo Games.Movement.Reverse
 /// @DnDVersion : 1
-/// @DnDHash : 311D5F87
-/// @DnDArgument : "steps" "1"
-alarm_set(0, 1);
+/// @DnDHash : 36ED5202
+/// @DnDArgument : "dir" "1"
+hspeed = -hspeed;
